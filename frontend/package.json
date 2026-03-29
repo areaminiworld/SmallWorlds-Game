@@ -1,0 +1,1 @@
+{"name": "small-worlds-game","version": "1.0.0","description": "A Node.js frontend for a Phaser game.","main": "index.js","scripts": {"start": "node index.js"},"dependencies": {"phaser": "^3.55.2"}}
