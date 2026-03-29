@@ -1,34 +1,49 @@
-# Small Worlds Game
+# SmallWorlds Game
 
-## Project Documentation
+## Project Structure
 
-### Overview
-Small Worlds Game is an immersive game where players navigate through various worlds, overcoming challenges and uncovering mysteries along the way.
+- `src/` - Contains all the source code for the game.
+- `assets/` - Contains images, sounds, and other game assets.
+- `tests/` - Contains unit tests and integration tests.
+- `docs/` - Contains project documentation.
+- `README.md` - Project's main documentation file.
 
-### Features
-- Multi-world interaction
-- Engaging challenges
-- Stunning graphics and sound
+## Setup Instructions
 
-### Installation
-1. Clone the repository: `git clone https://github.com/areaminiworld/SmallWorlds-Game.git`
-2. Navigate to the project directory.
-3. Install dependencies:
-   ```bash
-   npm install
+1. **Clone the Repository**  
+   Run the following command in your terminal:  
+   ```bash  
+   git clone https://github.com/areaminiworld/SmallWorlds-Game.git  
    ```
 
-### Usage
-To start the game, run:
-```bash
-npm start
-```
+2. **Navigate to the Project Directory**  
+   ```bash  
+   cd SmallWorlds-Game  
+   ```
 
-### Contributing
-Please feel free to submit pull requests or report issues on the GitHub repository.
+3. **Install Dependencies**  
+   If you have `npm` installed, run:  
+   ```bash  
+   npm install  
+   ```
+   Otherwise, use your preferred package manager to install the dependencies listed in `package.json`.
 
-### License
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+4. **Run the Game**  
+   You can start the game using:  
+   ```bash  
+   npm start  
+   ```
 
-### Acknowledgements
-- Thanks to all contributions and support from the community!
+5. **Run Tests**  
+   To run the test suite, use:  
+   ```bash  
+   npm test  
+   ```
+
+6. **Build**  
+   To create a production build, run:  
+   ```bash  
+   npm run build  
+   ```
+
+For any issues or further instructions, please refer to the documentation in the `docs/` folder or contact the project maintainers.
